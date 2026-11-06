@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 BASE_URL = "https://plato.stanford.edu"
 CONTENTS_URL = f"{BASE_URL}/contents.html"
-OUTPUT_DIR = Path(__file__).resolve().parent.parent / "data" / "sep"
+OUTPUT_DIR = Path(__file__).resolve().parent / "export"
 CRAWL_DELAY = 5
 TIMEOUT = 60
 RETRIES = 4
